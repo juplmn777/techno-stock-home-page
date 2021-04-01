@@ -130,6 +130,19 @@ body {
   text-align: center;
 }
 
+
+/* ========== Animations ========== */
+.form-block .form-group:focus-within label {
+    top: 0;
+    transform: translateY(-100%);
+    color: #8b97d7;
+}
+
+.form-block .form-group:focus-within input {
+    border-bottom-color: #8b97d7;
+}
+
+/* ========= Media Queries ======== */
 @media screen and (max-width: 1200px) {
   .global-container {
     flex-direction: column;
