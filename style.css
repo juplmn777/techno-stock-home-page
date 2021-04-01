@@ -130,16 +130,17 @@ body {
   text-align: center;
 }
 
-
 /* ========== Animations ========== */
-.form-block .form-group:focus-within label {
-    top: 0;
-    transform: translateY(-100%);
-    color: #8b97d7;
+.form-block .form-group:focus-within label,
+.form-block .form-group.animation label {
+  top: 0;
+  transform: translateY(-100%);
+  color: #8b97d7;
 }
 
-.form-block .form-group:focus-within input {
-    border-bottom-color: #8b97d7;
+.form-block .form-group:focus-within input,
+.form-block .form-group.animation input {
+  border-bottom-color: #8b97d7;
 }
 
 /* ========= Media Queries ======== */
@@ -150,28 +151,28 @@ body {
     width: 100vw !important;
     align-items: center;
   }
-  .right-section{
-      display: none;
+  .right-section {
+    display: none;
   }
-  .left-section{
-      width: 70vw!important;
+  .left-section {
+    width: 70vw !important;
   }
 }
 
 @media screen and (max-width: 700px) {
-    .left-section {
-        width: 80vw!important;
-    }
-    .form-block .form-group .login-input {
-        margin: 0 auto;
-    }
-    .lost-password {
-        text-align: center;
-    }
+  .left-section {
+    width: 80vw !important;
+  }
+  .form-block .form-group .login-input {
+    margin: 0 auto;
+  }
+  .lost-password {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 400px) {
-    .left-section {
-        width: 100vw!important;
-    }
+  .left-section {
+    width: 100vw !important;
+  }
 }
