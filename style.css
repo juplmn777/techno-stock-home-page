@@ -95,4 +95,8 @@ body {
   cursor: pointer;
 }
 
-
+.form-block .form-group .login-input:hover {
+    color: #fff;
+    background-position: 100%;
+    border: 3px solid #fff;
+}
