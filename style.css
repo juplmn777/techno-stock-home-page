@@ -96,7 +96,20 @@ body {
 }
 
 .form-block .form-group .login-input:hover {
-    color: #fff;
-    background-position: 100%;
-    border: 3px solid #fff;
+  color: #fff;
+  background-position: 100%;
+  border: 3px solid #fff;
+}
+
+.form-block .lost-password a {
+  color: #8b97d7;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+}
+
+.form-block .lost-password a:hover {
+  border-bottom-color: #8b97d7;
 }
