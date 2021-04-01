@@ -7,9 +7,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .global-container {
@@ -89,7 +87,7 @@ body {
     #8b97d7
   );
   background-size: 200%;
-  color: #9b97d7;
+  color: #8b97d7;
   font-size: 25px;
   font-weight: 500;
   cursor: pointer;
@@ -113,3 +111,23 @@ body {
 .form-block .lost-password a:hover {
   border-bottom-color: #8b97d7;
 }
+
+/* ====== Right Section ======= */
+
+.right-section {
+  flex: 1 1 66.666%;
+  background-image: linear-gradient(to bottom right, #95a6f3, #707192);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.right-section h2{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+}
+
