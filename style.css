@@ -70,3 +70,29 @@ body {
   font-size: 20px;
   transition: 0.4s ease-out;
 }
+
+.form-group:nth-child(4) {
+  margin-bottom: 25px;
+  justify-content: flex-end;
+}
+
+.form-block .form-group .login-input {
+  display: block;
+  width: auto;
+  padding: 15px 60px;
+  border: 3px solid #8b97d7;
+  border-radius: 999px;
+  background-image: linear-gradient(
+    to right,
+    transparent 50%,
+    #5260ad,
+    #8b97d7
+  );
+  background-size: 200%;
+  color: #9b97d7;
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
